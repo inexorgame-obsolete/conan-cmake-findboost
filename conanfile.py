@@ -1,8 +1,8 @@
-from conans import ConanFile, CMake, tools
+from conans import ConanFile
 
 
 class FindConanBoost(ConanFile):
-    name = "FindConanBoost"
+    name = "findboost"
     version = "0.1"
     license = "<Put the package license here>"
     url = "<Package recipe repository url here, for issues about the package>"
