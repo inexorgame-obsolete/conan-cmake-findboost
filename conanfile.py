@@ -1,12 +1,12 @@
 from conans import ConanFile
 
 
-class FindConanBoost(ConanFile):
-    name = "findboost"
-    version = "0.1"
+class CMakeFindBoost(ConanFile):
+    name = "cmake-findboost"
+    version = "0.2.0"
     license = "<Put the package license here>"
     url = "<Package recipe repository url here, for issues about the package>"
-    description = "<Description here>"
+    description = "Supports CMake's findBoost methode for the bincrafters'Boost packages."
     generators = "cmake"
     exports_sources = "FindBoost.cmake"
 
