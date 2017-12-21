@@ -19,4 +19,4 @@ foreach(component ${Boost_FIND_COMPONENTS})
         add_cloned_imported_target(Boost::${component} CONAN_PKG::Boost.${Compontent})
     endif()
 endforeach()
-set(Boost_FOUND TRUE
+set(Boost_FOUND TRUE)
